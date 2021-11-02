@@ -1,0 +1,40 @@
+@font-face {
+    font-family: Title;
+    src: url(fonts/Charge_Vector_Bold.otf);
+}
+@font-face {
+    font-family: Heading;
+    src: url(fonts/Leorio.ttf);
+}
+@font-face {
+    font-family: Main;
+    src: url(fonts/rm_typerighter.ttf);
+}
+
+
+
+
+.menu {
+    background-color: rgba(221, 160, 221, 0.8);
+    overflow: hidden;
+}
+  
+.menu a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Main;
+}
+  
+.menu a:hover {
+    background-color: rgb(176, 78, 189);
+    color: rgb(255, 255, 255);
+}
+
+.menu a.active {
+    background-color: #8d2c96;
+    color: white;
+}

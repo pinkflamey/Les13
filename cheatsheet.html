@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <link rel="stylesheet" href="css/document.css">
+        <link rel="stylesheet" href="css/menu.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"></metaname>
+
+        <title>Document</title>
+
+    </head>
+
+    <body>
+
+        <div class="menu">
+
+            <a href="index.html">Home</a>
+            <a href="index.html" class="active">Cheatsheet Git</a>
+
+        </div>
+
+        <div class="content">
+
+            <h1>Github Cheat Sheet</h1>
+
+            <br>
+
+            <h2>Een repository aanmaken</h2>
+
+            <h3>
+                1.
+            </h3>
+            <p>Open in cmd de lege map die de <em>local repository</em> wordt</p>
+
+            <h3>
+                2.
+            </h3>
+            <p>Check met <u>git status</u> of er geen repository is aangemaakt</p>
+            <img src="img/cheatsheet/stap2.png">
+
+            <h3>
+                3.
+            </h3>
+            <p>Zo niet,  gebruik  dan <u>git init</u> om de  lokale  repository  in deze  map aan te maken.
+            </p>
+            <img src="img/cheatsheet/stap3.png">
+
+            <h3>
+                4.
+            </h3>
+            <p>Check  of dit is gelukt  met <u>git status</u></p>
+            <img src="img/cheatsheet/stap4.png">
+
+            <h3>
+                5.
+            </h3>
+            <p>Maak een <em>origin repository</em> aan op github.</p>
+
+            <h3>
+                6.
+            </h3>
+            <p>Om je <em>lokale repository</em> te linken aan je <em>origin repository</em>, gebruik je
+            <u>git remote add origin [link naar jouw github repository]</u>.</p>
+            <img src="img/cheatsheet/stap6.png">
+
+            <h3>
+                7.
+            </h3>
+            <p>Hernoem de <em>master branch</em> naar <em>main</em> met <u>git branch -M main</u>.</p>
+            <img src="img/cheatsheet/stap7.png">
+
+            <br>
+            
+            <h2>Bestanden stagen, committen en pushen</h2>
+
+            <h3>
+                1.
+            </h3>
+            <p>Om te checken welke wijzigingen er zijn, gebruik je <u>git status</u>. Als ze nog niet in de <em>staging area</em> staan, zullen de bestandsnamen rood zijn.</p>
+            <img src="img/cheatsheet/stap2-1.png">
+
+            <h3>
+                2.
+            </h3>
+            <p>Je wijzigingen kun je <em>stagen</em> met <u>git add [bestandsnaam|-A]</u>. <em>A</em>
+            voegt alle wijzigingen in één keer toe aan de <em>staging area</em>. Check
+            of dit is gelukt. Dit zie je als de bestandsnamen groen zijn.</p>
+            <img src="img/cheatsheet/stap2-2.png">
+
+            <h3>
+                3.
+            </h3>
+            <p>Om je wijzigingen in de <em>staging area</em> te <em>committen</em>, gebruik je
+            <u>git commit -m "[omschrijving]"</u>. Nu zal je zien dat als je <u>git status</u>
+            gebruikt, er geen bestanden meer klaar staan.</p>
+            <img src="img/cheatsheet/stap2-3.png">
+
+            <h3>
+                4.
+            </h3>
+            <p>Om vervolgens je wijzigingen op github te krijgen, of <em>pushen</em>, doe
+            je <u>git push -u origin [branchname(main)]</u>.</p>
+            <img src="img/cheatsheet/stap2-4.png">
+
+        </div>
+    </body>
+
+</html>

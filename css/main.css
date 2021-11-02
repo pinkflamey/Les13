@@ -1,0 +1,44 @@
+@font-face {
+    font-family: Title;
+    src: url(fonts/Charge_Vector_Bold.otf);
+}
+@font-face {
+    font-family: Heading;
+    src: url(fonts/Leorio.ttf);
+}
+@font-face {
+    font-family: Main;
+    src: url(fonts/rm_typerighter.ttf);
+}
+
+.title {
+    font-family: Title;
+    background-color: rgba(255, 192, 203, 0.8);
+    font-size: 50px;
+}
+.div-title {
+    display: inline;
+}
+.logo {
+    float: left;
+}
+
+.content {
+    background-color: rgba(255, 192, 203, 0.5);
+}
+.content p {
+    font-family: Main;
+}
+
+a {
+    color:white;
+    text-decoration: none;
+}
+a:hover {
+    color:white;
+    text-decoration: none;
+}
+
+body {
+    background-image: url(../img/background.png);
+}
