@@ -1,0 +1,33 @@
+.div1 {
+    width: auto;
+    float: left;
+    padding: 15px;
+    margin-bottom: 10px;
+    height: 250px;
+}
+.div2 {
+    width: auto;
+    float: left;
+    padding: 15px;
+    margin-bottom: 10px;
+    height: 250px;
+}
+.div3 {
+    width: auto;
+    float: left;
+    padding: 15px;
+    margin-bottom: 10px;
+    height: 250px;
+}
+.div4 {
+    width: auto;
+    float: left;
+    padding: 15px;
+    margin-bottom: 10px;
+    height: 250px;
+}
+
+#dance {
+    width: 230px;
+    height: 150px;
+}
